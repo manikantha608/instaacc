@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.phn{
+    margin-left: 35%;
+}
+.nav{
+    display: flex;
+    background-color: black;
+}
+.navsym{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 9px;
+}
+.nav_item{
+    padding: 0px 15px;
+}
+.plus{
+    border: 1px solid;
+    padding: 0 3px;
+}
+.header1{
+    margin-top: 10px;
+    display: flex;
+}
+.header1 div{
+    padding: 11px;
+}
+.cntr{
+    text-align: center;
+}
+.header1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.header2 p{
+    padding-left: 10px;
+}
+.btns{
+    padding: 10px;
+}
+.btns button{
+    padding: 7px 10px;
+    margin-right: 7px;
+    background-color: rgb(59, 59, 60);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.new{
+    margin: 10px;
+}
+.new #ml{
+    margin-left: 13px;
+    margin-top: 2px;
+}
+.new .plus{
+    padding: 15px;
+    width: 24px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.icons{
+    display: flex;
+    margin: 10px;
+    
+}
+.icon{
+    padding: 5px 45px;
+}
+.images{
+    height: 260px;
+    
+}
+.videos{
+    display: flex;
+    
+    
+}
+.videos video{
+    width: 107px;
+    margin-right: 5px;
+    
+} 
+
+img{
+    width: 490px;
+    height: 770px;
+    position: relative;
+}
+.container{
+    border: 2px solid;
+    margin: 5% auto;
+    width: 333px;
+    background-color: black;
+    color: white;
+    top: -830px;
+    padding: 15px;
+    height: 655px;
+    border-radius: 50px;
+    margin-left: 590px;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 1;
+    cursor: pointer;
+}
+.try{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    margin-top: 10px;
+}
+.container::-webkit-scrollbar {
+    display: none;
+}
+body{
+    height: 200px !important;
+}
